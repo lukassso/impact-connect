@@ -12,10 +12,10 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { label: "Home", icon: <HomeIcon />, href: "/home", key: "home" },
-  { label: "Search", icon: <SearchIcon />, href: "/search", key: "search" },
-  { label: "Favorites", icon: <StarIcon />, href: "/favorites", key: "favorites" },
-  { label: "My Connects", icon: <ConnectsIcon />, href: "/connects", key: "my_connects" },
-  { label: "Account", icon: <AccountIcon />, href: "/account", key: "account" },
+  { label: "Search", icon: <SearchIcon />, href: "/", key: "search" },
+  { label: "Favorites", icon: <StarIcon />, href: "/", key: "favorites" },
+  { label: "My Connects", icon: <ConnectsIcon />, href: "/", key: "my_connects" },
+  { label: "Account", icon: <AccountIcon />, href: "/", key: "account" },
 ]
 
 export const NavBar: FC = () => {

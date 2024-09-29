@@ -5,7 +5,7 @@ type Props = SVGProps<SVGSVGElement> & {
   size?: number | "1em";
 };
 
-export const SearchIcon = ({ size = 32, ...props }: Props) => (
+export const SearchIcon = ({ size = 24, ...props }: Props) => (
   <svg
     width={size}
     height={size}
