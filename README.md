@@ -95,17 +95,25 @@ The idea is to create a centralized online platform called "Social Impact Bridge
 - **Do you have ideas for new social projects?** [Multiline Text Field]
 
 
-Technologies (v0.01)
-- Next.js
-- Tailwind CSS
-- TypeScript
-- Shadcn UI
-- Radix UI
+Predicted use of technologies (v0.01 )
+- Next.js (currently used)
+- Tailwind CSS (currently used)
+- TypeScript (currently used) 
+- Shadcn UI (currently used)
+- Radix UI (currently used)
 - Open AI API
 - Tanstack Query
 - NextAuth
 - Prisma
 - Postgres
 - Redis
+
+## Quick mockup demo prezentation:
+
+
+![Demo Presentation](public/assets/demo-presentation.gif)
+
+<p align="center" style="padding-top: 50px;">Made with ❤️ for programming</p>
+
 
 
