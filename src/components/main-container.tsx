@@ -1,13 +1,9 @@
-import { FC, ReactNode } from 'react'
+import { FC, ReactNode } from "react";
 
 interface MainContainerProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
-export const MainContainer: FC<MainContainerProps> = ({ children }) => {
-  return (
-    <main className="p-4 flex-1">
-      {children}
-    </main>
-  )
-}
+export const MainContainer: FC<MainContainerProps> = () => {
+  return <>main container</>;
+};
